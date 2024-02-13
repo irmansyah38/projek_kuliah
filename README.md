@@ -6,15 +6,16 @@
 - cek kekeruhan air
 ## Komponen yang digunakan
 - ESP32
-- DS18B20 WATERPROOF TEMPERATURE SUHU
-- SENSOR PH METER MODULE PH-4502C
-- PELTIER COOLING SYSTEM KIT PELTIER TEC-12706
+- DS18B20 WATERPROOF TEMPERATURE SUHU ✔
+- SENSOR PH METER MODULE PH-4502C ✔
+- PELTIER COOLING SYSTEM KIT PELTIER TEC-12706 ✔
 - Towerpro Motor Servo Sg90 Sg-90 9g
 - Waterblock Water Cooling Block Watercooling Heatsink Peltier Cooler
 - RELAY 5V 1 CHANNEL OUTPUT 250VAC 30VDC 10A MODULE FOR ARDUINO
 - Lcd Character 20x4 2004 5v Blue Backlight Module
 - PRESSURE SENSOR WEIGHING ELECTRONIC SCALE 5KG STM32 YZ-13 LOAD CELL
 - Adaptor Power Supply 12v 5A / 10A PSU
+- jumper ✔
 ## Referensi 
 ### cooling sytem
 https://www.youtube.com/watch?v=_m7SYHzAX88&t=128s
