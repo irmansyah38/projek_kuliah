@@ -1,0 +1,5 @@
+{
+    "sketch": "kode_arduino\\pompa\\pompa.ino",
+    "configuration": "PSRAM=disabled,FlashSize=4M,PartitionScheme=default,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:esp32s2usb"
+}

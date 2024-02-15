@@ -1,3 +1,4 @@
-void coba(){
-  digitalWrite(13,HIGH);
+
+void coba (String nama) {
+  Serial.println(nama);
 }

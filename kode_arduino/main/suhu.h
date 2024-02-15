@@ -1,3 +1,4 @@
+#include "HardwareSerial.h"
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
@@ -17,12 +18,16 @@ void suhu() {
 
   Serial.print("Suhu: ");
   Serial.print(suhuCelsius);
-  Serial.println(" derajat Celsius");
+  Serial.print("©");
 
   if (suhuCelsius > 30) {
-  Serial.begin("suhu lebih 30")
+    Serial.println("Suhu lebih dari 30 derajat Celsius");
   }
   if (suhuCelsius < 20) {
-    Serial.begin("suhu kurang dari 20")
+    Serial.println("Suhu kurang dari 20 derajat Celsius");
+  }
+
+  if (20 > suhuCelsius < 30) {
+    Serial.println("suhu dalam rentang normal");
   }
 }
